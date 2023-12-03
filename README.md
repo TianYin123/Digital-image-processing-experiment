@@ -1,2 +1,3 @@
 # Digital-image-processing-experiment
-experiment tasks in Digital image processing class.
+# Files explanation
+The name of the folder means the main content. 
