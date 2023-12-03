@@ -1,0 +1,11 @@
+clear;
+clc;
+img = imread('liulian.jpeg');
+myyuv = myrgb2yuv(img);
+yuv = rgb2ycbcr(img);
+myrgb = myyuv2rgb(myyuv);
+figure;
+subplot(221);imshow(img);title('RGB');
+subplot(222);imshow(myyuv);title('MYYUV');
+subplot(223);imshow(yuv);title('matlabYUV');
+subplot(224);imshow(myrgb);title('rebuildRGB');
